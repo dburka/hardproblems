@@ -863,6 +863,14 @@ body {
   padding: 32px;
   border-top: 5px solid #FFE100; }
 
+body.permalink {
+  padding-top: 140px; }
+
+aside {
+  background: #f6f6f6;
+  margin: 0 -32px;
+  padding: 8px 32px; }
+
 a,
 a:visited {
   color: #000;
@@ -937,15 +945,21 @@ p, li {
   font-weight: 100; }
 
 .intro {
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 100;
   line-height: 1.2em;
   margin-top: 1em;
-  margin-bottom: 1.5em;
   clear: left; }
 
 .half {
   left: 0; }
+
+.home {
+  display: inline-block;
+  margin: 0 0 2em 0;
+  position: absolute;
+  top: 32px;
+  left: 60px; }
 
 .mobile {
   display: block; }
@@ -1030,10 +1044,20 @@ footer a:hover img,
 .subscribe a {
   margin-right: 1em; }
 
+.intro {
+  font-size: 22px;
+  line-height: 1.4; }
+
 nav {
-  margin: -80px 0 32px 0;
-  text-transform: uppercase;
-  font-weight: 700; }
+  margin-bottom: 2em;
+  color: #999;
+  position: absolute;
+  top: 100px;
+  left: 32px; }
+
+nav em {
+  padding: 0 8px;
+  color: #ddd; }
 
 /* For devices larger than 900px */
 @media (min-width: 900px) {
@@ -1044,6 +1068,15 @@ nav {
     background-image: linear-gradient(to right, #fff 50%, #f6f6f6 50%, #fff 55%);
     padding: 0;
     border: none; }
+
+  body.permalink {
+    padding-top: 0;
+    padding-top: 0; }
+
+  aside {
+    background: none;
+    margin: 32px;
+    padding: 0; }
 
   h1 {
     font-size: 46px;
@@ -1070,9 +1103,19 @@ nav {
     letter-spacing: 0.1em;
     font-weight: 500; }
 
+  nav {
+    position: relative;
+    top: 0;
+    left: 0; }
+
   .intro {
-    font-size: 28px;
-    line-height: 1.4; }
+    font-size: 24px;
+    line-height: 1.4;
+    margin-top: 0;
+    margin-bottom: 1em; }
+
+  .permalink .intro {
+    margin-top: 0; }
 
   .mobile {
     display: none; }
@@ -1082,7 +1125,7 @@ nav {
 
   .half {
     margin-right: 50%;
-    padding: 120px 40px;
+    padding: 110px 40px;
     border-left: 20px solid #FFE100; }
 
   .feature {
@@ -1149,12 +1192,6 @@ nav {
   h3 {
     font-size: 18px;
     letter-spacing: -0.03em; }
-
-  nav {
-    padding-top: 80px; }
-
-  nav a.link {
-    padding: 5px 10px 0 10px; }
 
   .contents {
     padding: 40px;
