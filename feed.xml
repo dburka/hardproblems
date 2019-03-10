@@ -5,7 +5,7 @@
   <id>http://hardproblems.com/</id>
   <link href="http://hardproblems.com/"/>
   <link href="http://hardproblems.com/feed.xml" rel="self"/>
-  <updated>2019-02-22T03:00:00-05:00</updated>
+  <updated>2019-02-22T13:30:00+05:30</updated>
   <author>
     <name>Daniel Burka and Elyce Cole</name>
   </author>
@@ -13,8 +13,8 @@
     <title>Sarah Jones</title>
     <link rel="alternate" href="http://hardproblems.com/2019/02/22/sarahjones.html"/>
     <id>http://hardproblems.com/2019/02/22/sarahjones.html</id>
-    <published>2019-02-22T03:00:00-05:00</published>
-    <updated>2019-03-03T12:24:44-05:00</updated>
+    <published>2019-02-22T13:30:00+05:30</published>
+    <updated>2019-03-03T22:54:44+05:30</updated>
     <author>
       <name>Daniel Burka and Elyce Cole</name>
     </author>
@@ -37,8 +37,8 @@
     <title>Rajeev Patel, MD</title>
     <link rel="alternate" href="http://hardproblems.com/2019/02/21/johnsmith.html"/>
     <id>http://hardproblems.com/2019/02/21/johnsmith.html</id>
-    <published>2019-02-21T03:00:00-05:00</published>
-    <updated>2019-03-03T12:24:04-05:00</updated>
+    <published>2019-02-21T13:30:00+05:30</published>
+    <updated>2019-03-03T22:54:04+05:30</updated>
     <author>
       <name>Daniel Burka and Elyce Cole</name>
     </author>
@@ -59,8 +59,8 @@
     <title>Kathryn Okone, RN MPH</title>
     <link rel="alternate" href="http://hardproblems.com/2019/01/21/kathrynokone.html"/>
     <id>http://hardproblems.com/2019/01/21/kathrynokone.html</id>
-    <published>2019-01-21T03:00:00-05:00</published>
-    <updated>2019-03-03T12:23:46-05:00</updated>
+    <published>2019-01-21T13:30:00+05:30</published>
+    <updated>2019-03-03T22:53:46+05:30</updated>
     <author>
       <name>Daniel Burka and Elyce Cole</name>
     </author>
@@ -81,8 +81,8 @@
     <title>Jane Kim</title>
     <link rel="alternate" href="http://hardproblems.com/2018/12/21/janekim.html"/>
     <id>http://hardproblems.com/2018/12/21/janekim.html</id>
-    <published>2018-12-21T03:00:00-05:00</published>
-    <updated>2019-03-08T20:09:44-05:00</updated>
+    <published>2018-12-21T13:30:00+05:30</published>
+    <updated>2019-03-09T06:39:44+05:30</updated>
     <author>
       <name>Daniel Burka and Elyce Cole</name>
     </author>
